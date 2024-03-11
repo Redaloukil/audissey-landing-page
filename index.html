@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your App Landing Page</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+      }
+      .container {
+        width: 100%; /* Adjust the width as needed */
+        margin: 0 auto;
+      }
+      .navbar {
+        max-width: 1000px;
+        margin: auto;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .navbar .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .navbar ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      .navbar ul li {
+        margin-left: 20px;
+        text-decoration: none;
+      }
+
+      .navbar ul li a {
+        text-decoration: none;
+      }
+
+      .header {
+        padding: 20px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      .header-body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header-description {
+        flex: 4;
+      }
+
+      .header-phone {
+        flex: 1;
+      }
+
+      .header-phone {
+        text-align: center;
+      }
+
+      .header-description h2 {
+        color: #0d1e2e;
+        font-size: 60px;
+        margin-bottom: 10px;
+        color: #0d1e2e;
+      }
+
+      .header-description h1 {
+        font-size: 100px;
+        margin-top: 10px;
+        color: #254159;
+      }
+
+      .header-description h6 {
+        color: #254159;
+      }
+
+      .phone-image {
+        margin-left: auto;
+        border-radius: 15px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .store-buttons {
+        display: flex;
+        margin-top: 20px;
+        opacity: 0.5;
+      }
+
+      .store-buttons a {
+        display: inline-block;
+        transition: background-color 0.3s ease;
+      }
+
+      .description {
+        background-color: #0d1e2e;
+        color: #fff;
+        padding: 50px 20px;
+      }
+
+      .description-container {
+        margin: auto;
+        width: 1000px;
+      }
+
+      .description h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      .description p {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="navbar">
+          <div class="logo"><img src="./assets/logo.svg" width="60px" /></div>
+          <ul>
+            <li><a href="#">Check updates on twitter</a></li>
+          </ul>
+        </div>
+        <div class="header-body">
+          <div class="header-description">
+            <h2>Echo Your Thoughts, Transcribe Your Story with</h2>
+            <h1>Audissey</h1>
+            <h5>Coming soon on</h5>
+            <div class="store-buttons">
+              <a>
+                <img
+                  class="apple"
+                  src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9"
+                  alt="Download on the App Store"
+                  width="100px"
+                  style="margin: 6% 0% 6% 0; width: 88%"
+                />
+              </a>
+              <a>
+                <img
+                  class="android"
+                  alt="Get it on Google Play"
+                  src="./assets/google-play-badge.png"
+                  width="130px"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="header-phone">
+            <img src="./assets/phone.png" alt="App Screenshot" height="500px" />
+          </div>
+        </div>
+      </div>
+
+      <div class="description">
+        <div class="description-container">
+          <p>
+            <b>Audissey</b> is the effortless solution to journaling. We all
+            desire to journal, yet often find ourselves procrastinating or
+            lacking the time to sit down at our desks with a notebook and pen.
+            With Audissey, the barriers to journaling vanish. Our user-friendly
+            platform seamlessly integrates <b>voice journaling</b>, allowing you
+            to capture your thoughts and experiences on the go, whenever
+            inspiration strikes. Say goodbye to excuses and hello to a new era
+            of self-expression with Audissey
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
